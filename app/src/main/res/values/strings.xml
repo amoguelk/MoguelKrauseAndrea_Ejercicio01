@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name" translatable="false">Zodiac</string>
+    <string name="version">Versión 1.0</string>
+    <string name="nameHint">Nombre</string>
+    <string name="dateHint">Fecha de nacimiento</string>
+    <string name="numberHint">Número de cuenta</string>
+    <string name="emailHint">Correo</string>
+    <string name="dateText" translatable="false">%1$d / %2$d / %3$d</string>
+    <string name="yearError">La fecha ingresada es inválida</string>
+    <string name="inputEmpty">Favor de ingresar %s</string>
+    <string name="emailError">Correo inválido</string>
+    <string name="nameEmpty">Favor de ingresar un nombre</string>
+    <string name="dateEmpty">Favor de ingresar una fecha</string>
+    <string name="numberEmpty">Favor de ingresar un número de cuenta</string>
+    <string name="emailEmpty">Favor de ingresar un correo</string>
+    <string name="numberError">Debe ser de 9 caracteres</string>
+    <plurals name="ageText">
+        <item quantity="one">Tienes %d año</item>
+        <item quantity="other">Tienes %d años</item>
+    </plurals>
+    <string-array name="zodiacSigns">
+        <item>Aries</item>>
+        <item>Tauro</item>
+        <item>Géminis</item>
+        <item>Cáncer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Escorpio</item>
+        <item>Sagitario</item>
+        <item>Capricornio</item>
+        <item>Acuario</item>
+        <item>Piscis</item>
+    </string-array>
+    <string-array name="chineseSigns">
+        <item>Mono</item>
+        <item>Gallo</item>
+        <item>Perro</item>
+        <item>Cerdo</item>
+        <item>Rata</item>>
+        <item>Buey</item>
+        <item>Tigre</item>
+        <item>Liebre</item>
+        <item>Dragón</item>
+        <item>Serpiente</item>
+        <item>Caballo</item>
+        <item>Cabra</item>
+    </string-array>
+    <string name="zodiacText">En el zodiaco: %s</string>
+    <string name="chineseText">En el horóscopo chino: %s</string>
+    <string name="signsText">Tus signos son:</string>
+    <string name="zodiacDescription">Imágen del signo del zodiaco</string>
+    <string name="chineseDescription">Imágen del signo del horóscopo chino</string>
+    <string name="goText">Ir</string>
+</resources>

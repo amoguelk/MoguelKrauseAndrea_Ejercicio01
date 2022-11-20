@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version">Version 1.0</string>
+    <string name="nameHint">Name</string>
+    <string name="dateHint">Date of birth</string>
+    <string name="numberHint">Account number</string>
+    <string name="emailHint">Email</string>
+    <string name="yearError">Invalid date selected</string>
+    <string name="inputEmpty">Please enter %s</string>
+    <string name="emailError">Invalid email</string>
+    <string name="nameEmpty">Please enter a name</string>
+    <string name="dateEmpty">Please enter a date</string>
+    <string name="numberEmpty">Please enter an account number</string>
+    <string name="emailEmpty">Please enter an email</string>
+    <string name="numberError">Must be 9 characters long</string>
+    <plurals name="ageText">
+        <item quantity="one">You are %d year old</item>
+        <item quantity="other">You are %d years old</item>
+    </plurals>
+    <string-array name="zodiacSigns">
+        <item>Aries</item>>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+    </string-array>
+    <string-array name="chineseSigns">
+        <item>Monkey</item>
+        <item>Rooster</item>
+        <item>Dog</item>
+        <item>Pig</item>
+        <item>Rat</item>>
+        <item>Ox</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Sheep</item>
+    </string-array>
+    <string name="zodiacText">In the zodiac: %s</string>
+    <string name="chineseText">In the Chinese zodiac: %s</string>
+    <string name="signsText">Your signs are:</string>
+    <string name="zodiacDescription">Image of zodiac sign</string>
+    <string name="chineseDescription">Image of Chinese zodiac sign</string>
+    <string name="goText">Go</string>
+</resources>

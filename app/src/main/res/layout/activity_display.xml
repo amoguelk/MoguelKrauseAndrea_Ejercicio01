@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background"
+    tools:context=".DisplayActivity">
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        tools:text="Aquí se muestra la edad"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/tvSigns"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+    <TextView
+        android:id="@+id/tvSigns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/signsText"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/tvZodiacSign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAge" />
+    <TextView
+        android:id="@+id/tvZodiacSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        tools:text="Tu signo es [X]"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/ivZodiacSign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSigns" />
+
+    <ImageView
+        android:id="@+id/ivZodiacSign"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:contentDescription="@string/zodiacDescription"
+        app:layout_constraintBottom_toTopOf="@id/tvChineseSign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvZodiacSign"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+    <TextView
+        android:id="@+id/tvChineseSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        tools:text="En el horóscopo chino: [X]"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/ivChineseSign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivZodiacSign" />
+    <ImageView
+        android:id="@+id/ivChineseSign"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvChineseSign"
+        android:contentDescription="@string/chineseDescription" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
